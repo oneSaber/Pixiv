@@ -7,8 +7,8 @@ import json
 se = requests.Session()
 class Pixiv():
     def __init__(self):
-        self.id = '1357860084@qq.com'
-        self.password = '18798318100asd'
+        self.id = '你的登陆id'
+        self.password = '你的登陆密码'
         self.baseurl = 'https://accounts.pixiv.net/login?lang=zh&source=pc&view_type=page&ref=wwwtop_accounts_index'
         self.loginurl = 'https://accounts.pixiv.net/api/login?lang=zh'
         self.header = {
